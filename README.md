@@ -8,7 +8,7 @@ A beginner-friendly guide to using Azure Cosmos DB with Python, demonstrating ba
 - Azure CLI installed and logged in
 - [Azure Identity with permissions to access the Cosmos DB account](https://learn.microsoft.com/azure/cosmos-db/nosql/security/how-to-grant-data-plane-role-based-access?tabs=built-in-definition%2Ccsharp&pivots=azure-interface-cli)
 - Python 3.11 or higher
-- Required Python packages (installed via `pyproject.toml`):
+- Required Python packages:
   - azure-cosmos
   - azure-identity
   - python-dotenv
