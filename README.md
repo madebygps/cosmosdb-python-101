@@ -4,10 +4,10 @@ A beginner-friendly guide to using Azure Cosmos DB with Python, demonstrating ba
 
 ## Prerequisites
 
-- Azure Cosmos DB account 
+- Azure Cosmos DB account
 - Azure CLI installed and logged in
-- Azure Identity with permissions to access the Cosmos DB account
-- Python 3.12 or higher
+- [Azure Identity with permissions to access the Cosmos DB account](https://learn.microsoft.com/azure/cosmos-db/nosql/security/how-to-grant-data-plane-role-based-access?tabs=built-in-definition%2Ccsharp&pivots=azure-interface-cli)
+- Python 3.11 or higher
 - Required Python packages (installed via `pyproject.toml`):
   - azure-cosmos
   - azure-identity
@@ -15,15 +15,7 @@ A beginner-friendly guide to using Azure Cosmos DB with Python, demonstrating ba
 
 ## Environment Setup
 
-Create a `.env` file with your Cosmos DB configuration:
-
-```sh
-COSMOS_ENDPOINT=<your-cosmos-endpoint>
-DATABASE_NAME=<your-database-name>
-BOOKS_CONTAINER=books
-USER_PREFERENCES_CONTAINER=userPreferences
-RECOMMENDATIONS_CONTAINER=recommendations
-```
+Update the `.env-sample` with your values and rename it to `.env`
 
 ## Scripts
 
@@ -35,19 +27,43 @@ A basic script that demonstrates connecting to Cosmos DB and listing all databas
 python setup.py
 ```
 
-### 2. query.py
+### 2. creating_reading.py
 
-A more complex script showcasing common Cosmos DB operations:
+A script that demonstrates basic reading and creation operations:
+
 - Reading all items from a container
-- Reading a single item by ID
-- Inserting new items
-- Querying with SQL-like syntax
-- Updating items
-- Deleting items
+- Reading a single item by ID and partition key
+- Creating a new item with a complex schema including nested objects and arrays
 
 ```sh
-python query.py
+python creating_reading.py
 ```
+
+### 3. updating_deleting.py
+
+A script showing how to modify and remove data:
+
+- Updating an existing item using replace operation
+- Deleting items by ID and partition key
+
+```sh
+python updating_deleting.py
+```
+
+### 4. querying.py
+
+A comprehensive script demonstrating various querying capabilities:
+
+- Basic filtering using WHERE clause
+- Parameterized queries for safe value injection
+- Projections to select specific fields
+- Array contains operations with case-insensitive search
+- Cross-partition queries
+
+```sh
+python querying.py
+```
+
 
 ## License
 
