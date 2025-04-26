@@ -1,0 +1,39 @@
+{
+    "id": "d655e5f4-1973-4fb0-98d3-29be87737b52",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "category": "Science Fiction",
+    "publishedDate": "1979-10-12",
+    "description": "The comedic adventures of Arthur Dent, the last surviving human following the demolition of Earth to make way for a hyperspace bypass, as he travels through space with his alien friend Ford Prefect.",
+    "rating": 4.5,
+    "tags": [
+        "science fiction",
+        "comedy",
+        "satire",
+        "space adventure"
+    ],
+    "pageCount": 216,
+    "isbn": "9780345391803",
+    "imageUrl": "https://example.com/hitchhikers-guide-cover.jpg",
+    "embeddings": {
+        "contentVector": [
+            0.321,
+            -0.654,
+            0.789,
+            0.432,
+            -0.567,
+            0.234,
+            -0.876,
+            0.543
+        ],
+        "model": "text-embedding-ada-002",
+        "version": "1.0"
+    },
+    "reviews": [
+        {
+            "userId": "u2m1n3p4-8k7j-6h5g-4f3d-2s1a9b8c7d6e",
+            "rating": 5,
+            "comment": "Brilliantly funny and absurd. Don't forget to bring your towel!"
+        }
+    ]
+}

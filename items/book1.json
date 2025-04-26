@@ -1,0 +1,39 @@
+{
+    "id": "f7ce644f-3050-4943-a066-638070d4f43f",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Fiction",
+    "publishedDate": "1925-04-10",
+    "description": "A tragic tale of the American Dream, following the mysterious millionaire Jay Gatsby and his obsession with Daisy Buchanan, set against the backdrop of the Roaring Twenties.",
+    "rating": 4.5,
+    "tags": [
+        "classic",
+        "american literature",
+        "romance",
+        "jazz age"
+    ],
+    "pageCount": 180,
+    "isbn": "9780743273565",
+    "imageUrl": "https://example.com/great-gatsby-cover.jpg",
+    "embeddings": {
+        "contentVector": [
+            0.234,
+            -0.567,
+            0.789,
+            0.123,
+            -0.456,
+            0.678,
+            -0.901,
+            0.345
+        ],
+        "model": "text-embedding-ada-002",
+        "version": "1.0"
+    },
+    "reviews": [
+        {
+            "userId": "u9h8g7f6-5e4d-3c2b-1a0z-x9y8w7v6u5t4",
+            "rating": 4,
+            "comment": "A masterpiece of American literature that captures the essence of the Jazz Age."
+        }
+    ]
+}

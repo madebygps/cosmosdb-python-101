@@ -8,6 +8,7 @@ A beginner-friendly guide to using Azure Cosmos DB with Python, demonstrating ba
   - Name your account what ever you'd like, mine is named `bookrecommender`
   - Create a database, name it whatever you'd like, mine is `BookRecommendationsDB`
   - Create a container named `books` and `/category` as the partition key
+  - Insert the items from the [items folder](items/) into your container
 - Azure CLI installed and logged in
 - [Azure Identity with permissions to access the Cosmos DB account](https://learn.microsoft.com/azure/cosmos-db/nosql/security/how-to-grant-data-plane-role-based-access?tabs=built-in-definition%2Ccsharp&pivots=azure-interface-cli)
 - Python 3.11 or higher

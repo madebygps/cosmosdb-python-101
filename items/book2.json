@@ -1,0 +1,39 @@
+{
+    "id": "1c6bb9a5-8b79-4e6f-a460-e8e2a1ea92a9",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "Science Fiction",
+    "publishedDate": "1965-08-01",
+    "description": "Set in the distant future amidst a feudal interstellar society, Dune tells the story of young Paul Atreides, whose family accepts stewardship of the planet Arrakis, the most important and dangerous planet in the universe.",
+    "rating": 4.7,
+    "tags": [
+        "science fiction",
+        "space opera",
+        "political",
+        "ecology"
+    ],
+    "pageCount": 412,
+    "isbn": "9780441172719",
+    "imageUrl": "https://example.com/dune-cover.jpg",
+    "embeddings": {
+        "contentVector": [
+            0.445,
+            -0.232,
+            0.678,
+            0.891,
+            -0.345,
+            0.567,
+            -0.789,
+            0.123
+        ],
+        "model": "text-embedding-ada-002",
+        "version": "1.0"
+    },
+    "reviews": [
+        {
+            "userId": "u5k4j3h2-1g0f-9e8d-7c6b-5a4m3n2p1q0r",
+            "rating": 5,
+            "comment": "A masterpiece of world-building that combines politics, religion, and ecology into an epic narrative."
+        }
+    ]
+}

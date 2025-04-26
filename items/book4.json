@@ -1,0 +1,39 @@
+{
+    "id": "c10f84e8-5626-4075-94cb-0fe28a83d0b5",
+    "title": "The Seven and a Half Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "category": "Mystery",
+    "publishedDate": "2018-09-18",
+    "description": "Aiden Bishop must solve a murder that repeats itself over eight days, inhabiting a different guest's body each day at Blackheath Manor. He must identify Evelyn Hardcastle's killer before she dies at 11:00 p.m., or the cycle will begin again.",
+    "rating": 4.3,
+    "tags": [
+        "mystery",
+        "thriller",
+        "time loop",
+        "psychological"
+    ],
+    "pageCount": 432,
+    "isbn": "9781492657965",
+    "imageUrl": "https://example.com/evelyn-hardcastle-cover.jpg",
+    "embeddings": {
+        "contentVector": [
+            0.367,
+            -0.892,
+            0.445,
+            0.678,
+            -0.234,
+            0.901,
+            -0.567,
+            0.789
+        ],
+        "model": "text-embedding-ada-002",
+        "version": "1.0"
+    },
+    "reviews": [
+        {
+            "userId": "u4p5q6r7-8s9t-0u1v-2w3x-4y5z6a7b8c9d",
+            "rating": 5,
+            "comment": "A mind-bending murder mystery that combines Agatha Christie with Groundhog Day."
+        }
+    ]
+}

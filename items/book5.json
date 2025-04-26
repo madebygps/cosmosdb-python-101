@@ -1,0 +1,40 @@
+{
+    "id": "b9f2e8d7-3c4a-4b1f-95e6-7a8d2f10c5e9",
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Fiction",
+    "publishedDate": "1949-06-08",
+    "description": "A dystopian social science fiction novel that examines the consequences of totalitarianism, mass surveillance, and repressive regimentation of people and behaviors.",
+    "rating": 4.6,
+    "tags": [
+        "dystopian",
+        "classic",
+        "political",
+        "totalitarianism",
+        "bestseller"
+    ],
+    "pageCount": 328,
+    "isbn": "9780451524935",
+    "imageUrl": "https://example.com/1984-cover.jpg",
+    "embeddings": {
+        "contentVector": [
+            0.123,
+            -0.343,
+            0.567,
+            0.211,
+            -0.785,
+            0.355,
+            -0.891,
+            0.467
+        ],
+        "model": "text-embedding-ada-002",
+        "version": "1.0"
+    },
+    "reviews": [
+        {
+            "userId": "u7d1e5f3-6a2b-4c8d-9e0f-3b5a8c7d9e6f",
+            "rating": 5,
+            "comment": "A terrifying and thought-provoking classic that remains relevant."
+        }
+    ]
+}
